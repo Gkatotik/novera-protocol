@@ -1,0 +1,15 @@
+# Local editor and operating-system metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+*.log
+*.tmp
