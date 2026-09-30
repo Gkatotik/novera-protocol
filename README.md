@@ -1,8 +1,12 @@
+![Novera Protocol](assets/novera-protocol-logo.png)
+
 # Novera Protocol
 
-> Public investor and ecosystem overview. **This repository is not the production platform repository.**
+> **Infrastructure for Trust.**
+>
+> Trust should be engineered, verified, and recorded.
 
-Novera Protocol is a planned modular platform for real-world-asset (RWA) lifecycle coordination, with an initial focus on asset registration, identity status, registry records, deed-style evidence, and lifecycle visibility.
+This is Novera Protocol's public investor and ecosystem overview. It is not the production platform repository. Novera is a planned modular platform for real-world-asset (RWA) lifecycle coordination, with an initial focus on asset registration, identity status, registry records, deed-style evidence, and lifecycle visibility.
 
 ## Public status
 

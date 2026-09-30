@@ -4,7 +4,7 @@ Thank you for your interest in Novera Protocol.
 
 ## Scope of this repository
 
-This repository accepts public-facing documentation improvements, factual corrections, and constructive ecosystem discussion. It is not the private production engineering repository.
+This is a curated public information repository. It is not the private production engineering repository and does not accept unrequested implementation work, smart contracts, or operational configurations.
 
 ## Before opening a contribution
 
@@ -13,10 +13,6 @@ This repository accepts public-facing documentation improvements, factual correc
 3. Do not submit smart contracts, wallet keys, payment logic, identity records, or production security configuration.
 4. Keep claims factual, sourced where possible, and consistent with the project’s pre-launch status.
 
-## Pull requests
+## Public feedback
 
-Describe the purpose of the change, disclose material assumptions, and avoid forward-looking claims presented as facts. Maintainers may decline contributions that create legal, regulatory, security, or brand risk.
-
-## Issues
-
-Use issues for documentation defects or high-level discussion. Follow [SECURITY.md](SECURITY.md) for security-sensitive matters.
+Public Issues are intentionally disabled so that investor-facing materials remain accurate, reviewed, and appropriately scoped. Follow [SECURITY.md](SECURITY.md) for security-sensitive matters. Other official engagement channels will be published by Novera when available.
