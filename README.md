@@ -2,40 +2,54 @@
 
 # Novera Protocol
 
-> **Infrastructure for Trust.**
+> **Your Assets, Your Control, Your Future.**
 >
-> Trust should be engineered, verified, and recorded.
+> Infrastructure for real-world assets.
 
-This is Novera Protocol's public investor and ecosystem overview. It is not the production platform repository. Novera is a planned modular platform for real-world-asset (RWA) lifecycle coordination, with an initial focus on asset registration, identity status, registry records, deed-style evidence, and lifecycle visibility.
+This repository is Novera Protocol's public product, architecture, roadmap, governance, and disclosure record. It is not the private implementation repository or a production platform.
 
-## Public status
+## Start here
 
-Novera is at a **foundation and prototype-design stage**. The private engineering repository is separate from this public repository. No live blockchain, token, stablecoin, payment rail, custody system, identity-verification provider, legal-document workflow, or production deployment is represented here.
+| Resource | Purpose |
+|---|---|
+| [Website](https://noveraprotocol.org/) | Product narrative and institutional overview |
+| [Product status](https://noveraprotocol.org/status) | Canonical scope, maturity, limitations, and evidence |
+| [Architecture](https://noveraprotocol.org/architecture) | Interactive system model and current network posture |
+| [Developer documentation](https://noveraprotocol.org/docs) | Concepts, illustrative schemas, proposed interfaces, and MVP evaluation |
+| [Public roadmap](docs/product/roadmap.md) | Version-controlled Now / Next / Later sequence |
+| [Public disclosures](docs/governance/public-disclosures.md) | NOVA, NovaStable, governance, and no-offer boundaries |
 
-## Product modules
+## Current status
 
-| Module | Intended role | Current public status |
+Novera is at a **foundation and synthetic lifecycle MVP stage**.
+
+The public MVP is designed to represent participant state, asset records, ownership-document workflow state, policy decisions, provenance, and lifecycle events using synthetic data. It does not provide real identity verification, legal title transfer, payment processing, custody, production settlement, asset tokenization, or a live blockchain network.
+
+## Canonical product state
+
+| Component | State | Current scope |
 |---|---|---|
-| NovaID | Identity and organization verification status | Conceptual; synthetic-data MVP planned |
-| NovaRegistry | Asset registration and lifecycle record | Conceptual; synthetic-data MVP planned |
-| NovaDeed | Evidence and deed-style record lifecycle | Conceptual; mock artifacts only |
-| NovaPay | Future payment and settlement orchestration | Deferred |
-| NovaChain | Chain-adapter and settlement interface | Deferred |
-| NovaStable | Intended CAD-pegged 1:1 stable-value concept | Not issued; not deployed |
-| NovaScan | Future lifecycle visibility | Deferred |
-| NovaDAO | Future governance exploration | Deferred |
-| Compliance Engine | Policy decisioning and controls | Mock-only MVP foundation |
-| Legal API Gateway | Future legal-workflow integration boundary | Deferred |
+| NovaID | MVP mock | Synthetic participant and verification-state model; no real KYC/KYB or identity documents |
+| NovaRegistry | MVP | Synthetic asset records, relationships, versions, provenance, and lifecycle events |
+| NovaDeed | MVP mock | Synthetic document-package, evidence, review, and approval states; no deed or legal title transfer |
+| NovaScan | Planned | Future read-only lifecycle and evidence view; no live explorer |
+| Compliance Engine | Conditional | Future policy and provider-integration boundary; no current compliance determination |
+| Legal API Gateway | Conditional | Future legal-provider integration boundary; no current legal service |
+| Settlement adapter | Under evaluation | Replaceable EVM-first, chain-agnostic interface; no production chain selected |
+| NovaPay | Not in MVP | No payment, custody, escrow, reconciliation, or settlement processing |
+| NOVA / NovaStable | Not in MVP | No token or stable-value asset issued, offered, reserved, or deployed |
+
+Read the [public status model](docs/product/status-model.md) for the vocabulary used across the website and repository.
 
 ## Architecture position
 
-- **EVM-first and chain-agnostic:** domain and application layers are designed to avoid coupling to one blockchain.
-- **Production chain selection remains open:** Base, Arbitrum, Ethereum mainnet, and other suitable EVM environments require a formal selection exercise.
-- **Hedera is optional:** a potential future adapter for enterprise, audit, throughput, or customer-specific requirements—not a mandatory core ledger.
-- **Chainlink is optional:** Chainlink Runtime Environment (CRE) may support future verifiable off-chain workflows; CCIP is relevant only where cross-chain functionality is justified.
-- **No live integrations are implied:** all current lifecycle examples are synthetic and mock-only.
+- **EVM-first and chain-agnostic:** domain and workflow layers are designed to avoid coupling to one blockchain.
+- **No production chain is selected:** Base is a leading candidate under evaluation only.
+- **Hedera is optional:** it may be assessed as a future adapter where a validated use case justifies it.
+- **Chainlink is conditional:** CRE, CCIP, and Proof of Reserve are potential future integrations, not active dependencies or partnerships.
+- **External authorities remain external:** identity providers, legal professionals, registries, payment providers, and other institutions remain responsible for their authoritative functions.
 
-Read the [investor overview](docs/product/investor-overview.md), [architecture overview](docs/architecture/overview.md), and [roadmap](docs/product/roadmap.md).
+Read the [architecture overview](docs/architecture/overview.md) and the website's [technology and regulatory boundaries](https://noveraprotocol.org/boundaries).
 
 ## Repository boundaries
 
@@ -54,14 +68,12 @@ Read the [investor overview](docs/product/investor-overview.md), [architecture o
 - Smart contracts, wallets, custody keys, token contracts, or blockchain configuration
 - Real KYC/KYB, payment, Chainlink, Hedera, or other live integrations
 
-## Important disclosures
-
-- **NOVA:** no token has been issued. Any reference to a contemplated fixed maximum supply of 1,000,000,000 NOVA tokens is a design position, not an offer, sale, solicitation, or commitment.
-- **NovaStable:** no stablecoin has been issued. The intended 1:1 CAD-pegged concept is exploratory and subject to legal, regulatory, banking, reserve, and risk review.
-- **No investment offer:** nothing in this repository constitutes investment, legal, tax, accounting, or financial advice, or an offer to sell or solicitation to buy securities, tokens, or other financial instruments.
-
-See [Public disclosures and governance position](docs/governance/public-disclosures.md) and [Publication status](docs/publications/README.md).
-
 ## Security and contributions
 
-See [SECURITY.md](SECURITY.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+Read [SECURITY.md](SECURITY.md) before reporting a security-sensitive concern. For documentation contributions, read [CONTRIBUTING.md](CONTRIBUTING.md) and the [website and documentation alignment guide](docs/product/website-and-docs-alignment.md).
+
+Do not include credentials, private keys, identity documents, payment data, confidential legal material, customer data, or exploit details in public issues or pull requests.
+
+## Important notice
+
+Nothing in this repository constitutes legal, financial, investment, tax, accounting, or regulatory advice, or an offer, sale, solicitation, or recommendation involving securities, tokens, stable-value assets, or other financial instruments.
