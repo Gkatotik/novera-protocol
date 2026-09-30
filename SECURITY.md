@@ -6,7 +6,7 @@ This public repository contains investor-facing documentation only. It does not 
 
 ## Reporting a vulnerability
 
-Do not open a public issue for suspected vulnerabilities, sensitive design concerns, credentials, or personal data. Instead, use the organization’s private security contact channel once published, or report through the repository owner’s private contact method.
+Do not open a public issue for suspected vulnerabilities, sensitive design concerns, credentials, or personal data. Send a concise report to [gkatotik@noveralabs.io](mailto:gkatotik@noveralabs.io) with the subject `Novera security report`.
 
 Please include:
 
@@ -15,6 +15,8 @@ Please include:
 - Reproduction or evidence where appropriate
 - Potential impact
 - Suggested remediation, if known
+
+Do not attach credentials, private keys, identity documents, payment data, customer data, confidential legal records, or live exploit payloads.
 
 ## Safe-harbor boundary
 
